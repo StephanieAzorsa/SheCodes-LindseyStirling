@@ -27,5 +27,9 @@ function apply() {
   }
 }
 
-let applyButton = document.querySelector("button");
-applyButton.addEventListener("click", apply);
+window.addEventListener("DOMContentLoaded", () => {
+  let applyButton = document.querySelector("button");
+  applyButton.addEventListener("click", apply);
+
+  updateAlbum("first");
+});
