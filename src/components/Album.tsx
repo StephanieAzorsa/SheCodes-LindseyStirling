@@ -47,7 +47,9 @@ const Album: React.FC<AlbumProps> = ({name, year, cover, songs }) => {
     return (
         <>
             <div
-                className="flex-none w-64 cursor-pointer transform transition duration-300 hover:scale-105"
+                className="flex-none w-64 cursor-pointer
+                 transform transition duration-300
+                 hover:scale-105"
                 onClick={() => setIsModalOpen(true)}
             >
                 <img

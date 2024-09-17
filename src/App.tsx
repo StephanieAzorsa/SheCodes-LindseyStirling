@@ -27,7 +27,7 @@ const AppContent: React.FC = () => {
             <Header/>
 
             <main className="">
-                <section id="biography" className="min-h-screen flex items-center justify-center py-8">
+                <section id="biography" className=" flex items-center justify-center py-8">
                     <Biography/>
                 </section>
                 <section id="discography" className="p-6">

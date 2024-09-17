@@ -10,7 +10,7 @@ const socialLinks = [
 
 const Biography: React.FC = () => {
     return (
-        <section className="container mx-auto px-4 py-8">
+        <section className="container mx-auto px-4 py-8 pt-32">
             <h2 className="text-3xl font-bold mb-4 text-primary-light dark:text-primary-dark">Biografía</h2>
             <div className="flex flex-col md:flex-row items-center">
                 <div className="relative w-full md:w-1/3 mb-4 md:mb-0 md:mr-6">
@@ -42,12 +42,22 @@ const Biography: React.FC = () => {
                         1986, Stirling ganó fama a través de su canal de YouTube, donde publica videos musicales y de
                         rendimiento que combinan su habilidad para tocar el violín con coreografías elaboradas.
                     </p>
-                    <p className="text-lg">
+                    <p className="text-lg mb-4">
                         A lo largo de su carrera, Stirling ha lanzado varios álbumes de estudio, realizado giras
                         mundiales y colaborado con numerosos artistas. Su estilo innovador y su presencia en el
                         escenario la han convertido en una de las artistas más únicas y reconocibles en la industria de
                         la música.
                     </p>
+                    <p className="text-lg">
+                    ¿Quieres saber más? Visita su página oficial:
+                    <a
+                        href="https://www.lindseystirling.com/home"
+                        className="underline decoration-wavy decoration-pink-800 transition-colors duration-300 hover:bg-pink-950 hover:text-white px-1"
+                    >
+                        aquí
+                    </a>
+                    para descubrir todo sobre Lindsey Stirling.
+                </p>
                 </div>
             </div>
         </section>

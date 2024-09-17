@@ -18,12 +18,13 @@ const Discography: React.FC = () => {
     };
 
     return (
-        <section className="mb-12 relative">
+        <section className="m-12 pl-32 pr-32 relative">
             <h2 className="text-3xl font-bold mb-4 text-primary-light dark:text-primary-dark">Discografía</h2>
             <div className="relative">
                 <button
                     onClick={() => scroll('left')}
-                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white dark:bg-gray-800 rounded-full p-2 shadow-lg z-10 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-300"
+                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white
+                    dark:bg-gray-800 rounded-full p-2 shadow-lg z-10 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-300"
                     style={{display: scrollPosition <= 0 ? 'none' : 'block'}}
                 >
                     <ChevronLeft size={24} className="text-primary-light dark:text-primary-dark"/>
