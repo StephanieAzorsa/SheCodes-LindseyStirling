@@ -16,6 +16,26 @@ Este es un proyecto tributo a la violinista y compositora Lindsey Stirling.
   </p>
 </div></br>
 
+## 📜 Descripción del Proyecto
+
+La página está dividida en varias secciones:
+
+1. **Sección de Biografia**: 
+   - Contiene una foto de Lindsey Stirling en la parte superior con enlaces a sus redes sociales.
+   - Y su biografia
+
+2. **Sección de Discografia**:
+   - Al interactuar con las imágenes de los discos, se mostrará un pop-up mostrando las canciones del disco.
+
+3. **🌙 Dark Mode**:
+   - La página ofrece la opción de alternar entre modo claro y modo oscuro mediante un botón.
+
+
+## 🎥 Visualización del Proyecto
+
+A continuación puedes ver una demostración del proyecto en funcionamiento:
+<img src="./src/assets/preview-v0.2.0" width="800" />
+
 ## 🎯 Motivación del Proyecto
 
 Este proyecto fue desarrollado como parte del **proyecto final del curso SheCodes Basics**, donde se requería crear una página web interactiva utilizando tecnologías modernas. Elegí hacer un tributo a Lindsey Stirling por su gran influencia en la música contemporánea y por su capacidad de fusionar varios géneros musicales.
@@ -32,7 +52,7 @@ Este proyecto fue desarrollado como parte del **proyecto final del curso SheCode
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/lindsey-stirling-tribute.git
+   git clone https://github.com/StephanieAzorsa/SheCodes-LindseyStirling.git
    ```
 2. Ve al directorio del proyecto
    ```bash
