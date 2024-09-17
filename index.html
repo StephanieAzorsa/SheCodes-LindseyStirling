@@ -1,126 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shorcut icon"
-    href="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-violin-musical-instruments-flaticons-flat-flat-icons.png"
-    type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="src/styles.css" rel="stylesheet" type="text/css" />
-  <script src="src/index.js"></script>
-  <title>Lindsey Stirling</title>
-
-
-</head>
-
-<body>
-  <div class="container mt-5 mb-2 p-4">
-    <div class="row">
-      <div class="col-sm-6">
-        <h1>Lindsey Stirling</h1>
-        <img class="img-perfil"
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/468/original/00-Lindsey-Stirling.jpg?1649575250"
-          alt="00-Lindsey-Stirling" />
-        <p class="mt-3 text-center"><strong>Violinist</strong> from Arizona, USA, who mixes classical violin music with
-          contemporary
-          music styles
-          like Dubstep and Hip-Hop. She has gained greater success through her own YouTube channel. In 2010 she reached
-          the
-          quarter final of the fifth season during casting for the show <em>"America's Got Talent"</em>.
-          </br>
-          <a href="https://es.wikipedia.org/wiki/Lindsey_Stirling" target="_blank">More</a>
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <h2>Albums</h2>
-        <p>Choose an album:</p>
-        <div>
-          <ul>
-            <li class="album-name m-2" onclick="updateAlbum('first')"> Lindsey Stirling <span> 2012</span> </li>
-            <li class="album-name m-2" onclick="updateAlbum('second')"> Shatter me <span> 2014</span> </li>
-            <li class="album-name m-2" onclick="updateAlbum('third')"> Brave Enough <span> 2016</span> </li>
-            <li class="album-name m-2" onclick="updateAlbum('fourth')"> Warmer in the Winter <span>2017 </span> </li>
-            <li class="album-name m-2" onclick="updateAlbum('fifth')"> Artemis <span> 2019</span> </li>
-          </ul>
-        </div>
-        <div class="album-images">
-          <ul>
-            <li id="album-first" class="carusel">
-              <img class="album-image img-fluid "
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/469/original/01-first-album.jpg?1649575279"
-                alt="01-first-album"> <br />
-              <a href="https://open.spotify.com/album/2eEowNba2YzfiKxyuPwhdh?si=dx8W1kfXSCWJyBEH-ipthA" target="_blank">
-                <img src="https://img.icons8.com/color/36/000000/spotify--v1.png" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=vxIOUJ7by6U&list=OLAK5uy_mfW-w3ZCWR7sjyi8BogXAHSXbr2xIBHtU"
-                target="_blank">
-                <img src="https://img.icons8.com/fluency/36/000000/youtube-play.png" />
-              </a>
-            </li>
-            <li id="album-second" class="carusel">
-              <img class="album-image img-fluid"
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/470/original/02-second-album.jpg?1649575303"
-                alt="02-second-album"><br />
-              <a href="https://open.spotify.com/album/07DvcMYxY3RKulpG4EtDhz?si=wWEmtMt-SyONqVaQ4jWFJw" target="_blank">
-                <img src="https://img.icons8.com/color/36/000000/spotify--v1.png" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=Qg7L0OQiN78&list=OLAK5uy_kJ2qAT8ih2R6RRZUdEcJpWHnQ5PJ8_IWQ"
-                target="_blank">
-                <img src="https://img.icons8.com/fluency/36/000000/youtube-play.png" />
-              </a>
-            </li>
-            <li id="album-third" class="carusel">
-              <img class="album-image img-fluid"
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/471/original/03-third-album.jpg?1649575328"
-                alt="03-third-album"><br />
-              <a href="https://open.spotify.com/album/4EBp4auyuzkB2Zl8IEdIai?si=cAZ_1POARDe1X7SEX-PUhw" target="_blank">
-                <img src="https://img.icons8.com/color/36/000000/spotify--v1.png" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=pWn7PYm-W90&list=OLAK5uy_kkIxQbAN-qa1-wrGMPezTnkKZCi71CMqc"
-                target="_blank">
-                <img src="https://img.icons8.com/fluency/36/000000/youtube-play.png" />
-              </a>
-            </li>
-            <li id="album-fourth" class="carusel">
-              <img class="album-image img-fluid"
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/472/original/04-fourth-album.png?1649575351"
-                alt="04-fourth-album"><br />
-              <a href="https://open.spotify.com/album/7wfjL0ZBEycLvXzJmHF45g?si=8kPpJYUyTDG5iu2fLbLIHA" target="_blank">
-                <img src="https://img.icons8.com/color/36/000000/spotify--v1.png" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=0RkSy6ElNIY&list=OLAK5uy_lbm00RPRFjrg6tUO7JBeiKlk3Mtq7N2pA"
-                target="_blank">
-                <img src="https://img.icons8.com/fluency/36/000000/youtube-play.png" />
-              </a>
-            </li>
-            <li id="album-fifth" class="carusel">
-              <img class="album-image img-fluid"
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/473/original/05-fifth-album.jpg?1649575372"
-                alt="05-fifth-album"><br />
-              <a href="https://open.spotify.com/album/4YAtGpNUwcHesLlyYUIxur?si=GtcI6S8TT2mC7TA_Z0UcMQ" target="_blank">
-                <img src="https://img.icons8.com/color/36/000000/spotify--v1.png" />
-              </a>
-              <a href="https://www.youtube.com/watch?v=EJ09pSuA9hw&list=OLAK5uy_nBoIJWM3tH3SfUR8JRJnGUkzdaVa-ChqM"
-                target="_blank">
-                <img src="https://img.icons8.com/fluency/36/000000/youtube-play.png" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <button>Buy album</button>
-        <p class="message"></p>
-      </div>
-    </div>
-  </div>
-
-  <footer>© 2022 Stephanie Azorsa</footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
