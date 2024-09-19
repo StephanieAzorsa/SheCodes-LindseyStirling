@@ -1,7 +1,7 @@
 {
   "artist": {
     "name": "Lindsey Stirling",
-    "photo": "./public/images/lindsey-stirling.jpg",
+    "photo": "https://i.ibb.co/1KJcXTY/lindsey-stirling.jpg",
     "biography": "Lindsey Stirling es una violinista, compositora y bailarina estadounidense. Conocida por su habilidad única para mezclar música clásica con electrónica y dubstep, Stirling ha ganado reconocimiento mundial por sus actuaciones energéticas y su estilo musical innovador.",
     "socialMedia": {
       "youtube": "https://www.youtube.com/user/lindseystomp",
