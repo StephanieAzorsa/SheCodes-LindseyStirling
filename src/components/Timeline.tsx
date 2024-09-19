@@ -7,7 +7,7 @@ interface TimelineProps {
     setSelectedItem: (index: number) => void;
 }
 
-const Timeline: React.FC<TimelineProps> = ({selectedItem, setSelectedItem}) => {
+const Timeline: React.FC<TimelineProps> = ({ selectedItem, setSelectedItem }) => {
     const [images, setImages] = useState<string[]>([]);
 
     useEffect(() => {
@@ -20,11 +20,15 @@ const Timeline: React.FC<TimelineProps> = ({selectedItem, setSelectedItem}) => {
     }, []);
 
     const handlePrev = () => {
-        setSelectedItem(prev => (prev === 0 ? images.length - 1 : prev - 1));
+        // Calcula el nuevo índice y pásalo directamente a setSelectedItem
+        const newIndex = selectedItem === 0 ? images.length - 1 : selectedItem - 1;
+        setSelectedItem(newIndex);
     };
 
     const handleNext = () => {
-        setSelectedItem(prev => (prev === images.length - 1 ? 0 : prev + 1));
+        // Calcula el nuevo índice y pásalo directamente a setSelectedItem
+        const newIndex = selectedItem === images.length - 1 ? 0 : selectedItem + 1;
+        setSelectedItem(newIndex);
     };
 
     return (
