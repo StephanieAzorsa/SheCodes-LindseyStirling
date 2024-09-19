@@ -1,0 +1,177 @@
+{
+  "artist": {
+    "name": "Lindsey Stirling",
+    "photo": "./public/images/lindsey-stirling.jpg",
+    "biography": "Lindsey Stirling es una violinista, compositora y bailarina estadounidense. Conocida por su habilidad única para mezclar música clásica con electrónica y dubstep, Stirling ha ganado reconocimiento mundial por sus actuaciones energéticas y su estilo musical innovador.",
+    "socialMedia": {
+      "youtube": "https://www.youtube.com/user/lindseystomp",
+      "instagram": "https://www.instagram.com/lindseystirling",
+      "facebook": "https://www.facebook.com/lindseystirlingmusic",
+      "twitter": "https://twitter.com/LindseyStirling"
+    }
+  },
+  "albums": [
+    {
+      "name": "Lindsey Stirling",
+      "year": 2012,
+      "coverImage": "https://i.scdn.co/image/ab67616d0000b27379e8b529ce6c088a8027b2a1",
+      "spotify": "https://open.spotify.com/album/2eEowNba2YzfiKxyuPwhdh?si=JPVnQUGjQjCIpOfhJClioA",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mfW-w3ZCWR7sjyi8BogXAHSXbr2xIBHtU&playnext=1&index=1",
+      "tracks": [
+        "Electric Daisy Violin",
+        "Zi-Zi's Journey",
+        "Crystallize",
+        "Song of the Caged Bird",
+        "Moon Trance",
+        "Minimal Beat",
+        "Transcendence",
+        "Elements",
+        "Shadows",
+        "Spontaneous Me",
+        "Anti Gravity",
+        "Stars Align"
+      ]
+    },
+    {
+      "name": "Shatter Me",
+      "year": 2014,
+      "coverImage": "https://i.scdn.co/image/ab67616d0000b273cdb2461871ded49f97bc41c2",
+      "spotify": "https://open.spotify.com/album/2spbck4ETZz1aLq5Fi5phC?si=kJtfP9BWQyinF4PslXCM4A",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nNoIqs40ybLJQ1uvrFzwmfRgPc2CXLCJI",
+      "tracks": [
+        "Beyond the Veil",
+        "Mirror Haus",
+        "V-Pop",
+        "Shatter Me (feat. Lzzy Hale)",
+        "Heist",
+        "Roundtable Rival",
+        "Night Vision",
+        "Take Flight",
+        "Ascendance",
+        "We Are Giants (feat. Dia Frampton)",
+        "Swag",
+        "Master of Tides"
+      ]
+    },
+    {
+      "name": "Brave Enough (Deluxe Edition)",
+      "year": 2016,
+      "coverImage": "https://i.scdn.co/image/ab67616d0000b2732aced5fe9860f48c1cb627e8",
+      "spotify": "https://open.spotify.com/album/4EBp4auyuzkB2Zl8IEdIai?si=yrRKe7G-QfigVwZwIrTYfA",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nNoIqs40ybLJQ1uvrFzwmfRgPc2CXLCJI&playnext=1&index=1",
+      "tracks": [
+        "Lost Girls",
+        "Brave Enough",
+        "The Arena",
+        "The Phoenix",
+        "Where Do We Go",
+        "Those Days",
+        "Prism",
+        "Hold My Heart",
+        "Mirage",
+        "Don't Let This Feeling Fade",
+        "First Light",
+        "Love's Just a Feeling",
+        "Something Wild",
+        "Gavi's Song",
+        "Waltz",
+        "Afterglow",
+        "Powerlines",
+        "Forgotten Voyage"
+      ]
+    },
+    {
+      "name": "Warmer in the Winter (Deluxe Edition)",
+      "year": 2018,
+      "coverImage": "https://i.scdn.co/image/ab67616d0000b273b4a35e290c22d73c16df1f7b",
+      "spotify": "https://open.spotify.com/album/7wfjL0ZBEycLvXzJmHF45g?si=1LbuildJQ0SpGzc2RPLDUg.",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lbm00RPRFjrg6tUO7JBeiKlk3Mtq7N2pA&playnext=1&index=1",
+      "tracks": [
+        "Dance of the Sugar Plum Fairy",
+        "You're a Mean One, Mr. Grinch",
+        "Christmas C'mon",
+        "Carol of the Bells",
+        "Angels We Have Heard on High",
+        "I Saw Three Ships",
+        "Let It Snow",
+        "Warmer in the Winter",
+        "What Child Is This",
+        "All I Want for Christmas",
+        "Time to Fall in Love",
+        "Jingle Bell Rock",
+        "Silent Night",
+        "I Wonder As I Wander",
+        "We Three Gentlemen - Medley",
+        "Santa Baby",
+        "Main Title from Home Alone (Somewhere in My Memory)",
+        "Hallelujah"
+      ]
+    },
+    {
+      "name": "Artemis",
+      "year": 2019,
+      "coverImage": "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/473/original/05-fifth-album.jpg?1649575371",
+      "spotify": "https://open.spotify.com/album/1Fp7KUob6eXag90SkbBbnU?si=TFQ0Jvw-QymEC36baorX1Q",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nBoIJWM3tH3SfUR8JRJnGUkzdaVa-ChqM&playnext=1&index=1",
+      "tracks": [
+        "Underground",
+        "Artemis",
+        "Til the Light Goes Out",
+        "Between Twilight",
+        "Foreverglow",
+        "Love Goes On and On (feat. Amy Lee)",
+        "Masquerade",
+        "Sleepwalking",
+        "Darkside",
+        "The Upside",
+        "Guardian",
+        "Aurora",
+        "The Upside (feat. Elle King)"
+      ]
+    },
+    {
+      "name": "Snow Waltz",
+      "year": 2022,
+      "coverImage": "https://i.scdn.co/image/ab67616d0000b273971ec547c99a8b86ee06b618",
+      "spotify": "https://open.spotify.com/album/1VggmVcQEgVtLmNYWCrdGI?si=yaaih_xfSJWGPxUp4IlTxA",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_npJLzKHfxfF9Z8VJRNgy16t8qi4wIy5UU&playnext=1&index=1",
+      "tracks": [
+        "Sleigh Ride",
+        "God Rest Ye Merry Gentlemen",
+        "Crazy For Christmas [Feat. Bonnie McKee]",
+        "Feliz Navidad",
+        "Joy to the World - Intro",
+        "Joy to the World",
+        "Snow Waltz",
+        "Christmas Time With You",
+        " Little Drummer Boy",
+        "O Come, O Come, Emmanuel",
+        "Oh Holy Night",
+        "Magic [Feat. David Archuleta]",
+        "Deck the Halls",
+        "Ice Storm"
+      ]
+    },
+    {
+      "name": "Duality",
+      "year": 2024,
+      "coverImage": "https://open.spotify.com/album/124LdmYiB3SM7x2EefHBoa?si=SOFz6NmSQaKckGG4iiZHdw",
+      "spotify": "https://open.spotify.com/album/...",
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_k9BTZf0q-kwV-LUhfBGYl2fNEaipbpczw&playnext=1&index=1",
+      "tracks": [
+        "Evil Twin",
+        "Eye Of The Untold Her",
+        "Surrender",
+        "Serenity Found",
+        "Untamed",
+        "Purpose",
+        "The Scarlet Queen",
+        "Inner Gold [Feat. Royal & the Serpent]",
+        "Survive [Feat. Walk Off The Earth]",
+        "Kintsugi",
+        "Firefly Alley",
+        "Les Fées"
+      ]
+    }
+  ]
+}

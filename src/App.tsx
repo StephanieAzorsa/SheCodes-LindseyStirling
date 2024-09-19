@@ -1,40 +1,25 @@
-import React from 'react';
-
+import React, {useState} from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Timeline from './components/Timeline';
+import InfoPanel from './components/InfoPanel';
 import {ThemeProvider, useTheme} from './contexts/ThemeContext';
-import {Moon, Sun} from 'lucide-react';
-import Biography from "./components/Biography.tsx";
-import Discography from "./components/Discography.tsx";
-import Footer from "./components/Footer.tsx";
-import Header from "./components/Header.tsx";
-
-const ThemeToggle: React.FC = () => {
-    const { theme, toggleTheme } = useTheme();
-    return (
-        <button
-            onClick={toggleTheme}
-            className="fixed top-4 right-4 bg-primary-light dark:bg-primary-dark text-white p-2 rounded-full z-50 hover:opacity-80 transition duration-300"
-        >
-            {theme === 'light' ? <Moon size={24} /> : <Sun size={24} />}
-        </button>
-    );
-};
 
 const AppContent: React.FC = () => {
+    const {theme, toggleTheme} = useTheme();
+    const [selectedItem, setSelectedItem] = useState(0);
+
     return (
-        <div
-            className="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-            <ThemeToggle/>
-            <Header/>
-
-            <main className="">
-                <section id="biography" className=" flex items-center justify-center py-8">
-                    <Biography/>
-                </section>
-                <section id="discography" className="p-6">
-                    <Discography/>
-                </section>
+        <div className={`flex flex-col min-h-screen ${theme === 'dark' ?
+            'dark bg-gray-900 text-white' : 'bg-white text-gray-900 bg-purple-100'}`}>
+            <Header
+                toggleTheme={toggleTheme}
+                theme={theme}
+            />
+            <main className="flex-grow container mx-auto px-4 py-8 flex flex-col md:flex-row">
+                <Timeline selectedItem={selectedItem} setSelectedItem={setSelectedItem}/>
+                <InfoPanel selectedItem={selectedItem}/>
             </main>
-
             <Footer/>
         </div>
     );

@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import Album from "./Album.tsx";
-import albumsData from '../data/albums.json';
+import albumsData from '../data/lindseyStirlingData.json';
 import {ChevronLeft, ChevronRight} from 'lucide-react';
 
 

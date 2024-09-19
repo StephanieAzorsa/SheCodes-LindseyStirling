@@ -1,21 +1,25 @@
-import { Guitar } from 'lucide-react';
+import React from 'react';
+import {Moon, Sun} from 'lucide-react';
 
-const Header = () => {
+interface HeaderProps {
+    toggleTheme: () => void;
+    theme: 'light' | 'dark';
+}
+
+const Header: React.FC<HeaderProps> = ({toggleTheme, theme}) => {
     return (
-        <header className="bg-purple-500 dark:bg-slate-950 text-white py-4 fixed top-0 left-0 right-0 z-10">
-            <div className="container mx-auto px-4 flex justify-between items-center">
-
-                <h1 className="text-4xl font-bold flex items-center">
-                    <Guitar size={32} className="mr-4"/>
-                    Lindsey Stirling Tribute
+        <header className="bg-purple-300 dark:bg-gray-950 text-white p-2">
+            <div className="container mx-auto flex justify-between items-center">
+                <h1 className="text-2xl font-bold leading-7 text-gray-800
+                                          dark:text-white sm:truncate sm:text-3xl sm:tracking-tight">
+                    Tributo a Lindsey Stirling
                 </h1>
-                <nav>
-                    <a href="#biography" className="mx-4 hover:underline">Biografía</a>
-                    <a href="#discography" className="mx-4 hover:underline">Discografía</a>
-                </nav>
+                <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-gray-700">
+                    {theme === 'dark' ? <Sun size={24}/> : <Moon size={24}/>}
+                </button>
             </div>
         </header>
     );
-}
+};
 
 export default Header;
