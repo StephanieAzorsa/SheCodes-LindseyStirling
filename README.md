@@ -34,7 +34,7 @@ La página está dividida en varias secciones:
 ## 🎥 Visualización del Proyecto
 
 A continuación puedes ver una demostración del proyecto en funcionamiento:
-<img src="public/images/preview-v1.1.0.gif" alt="Preview of the app" width="800"/>
+<img src="public/images/preview-v1.2.0.gif" alt="Preview of the app" width="800"/>
 
 ## 🎯 Motivación del Proyecto
 
