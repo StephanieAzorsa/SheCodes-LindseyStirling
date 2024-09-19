@@ -34,6 +34,8 @@ La página está dividida en varias secciones:
 ## 🎥 Visualización del Proyecto
 
 A continuación puedes ver una demostración del proyecto en funcionamiento:
+
+
 <img src="public/images/preview-v1.2.0.gif" alt="Preview of the app" width="800"/>
 
 ## 🎯 Motivación del Proyecto
@@ -63,6 +65,15 @@ Este proyecto fue desarrollado como parte del **proyecto final del curso SheCode
    npm install
    npm run dev
    ```
+## 👩🏻‍💻 Mejoras Futuras
+
+* **Soporte para múltiples idiomas**: Incluir traducciones de contenido y permitir que los usuarios seleccionen el idioma de la interfaz según sus preferencias.
+
+* **Integración con API de música**: Conectar el proyecto a una API de música como Spotify o YouTube Data API para mostrar datos en tiempo real sobre canciones, álbumes y artistas.
+
+* **Sistema de favoritos**: Permitir a los usuarios marcar álbumes como favoritos y almacenar sus selecciones de forma local o en una base de datos, para acceder a ellos posteriormente.
+
+* **Barra de búsqueda**: Incluir una página o barra de búsqueda que permita a los usuarios filtrar y buscar álbumes, canciones o información relacionada de manera eficiente.
 
 
 
