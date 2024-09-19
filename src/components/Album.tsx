@@ -1,3 +1,4 @@
+// Componente no usado en la aplicación, pero se mantiene para futuras actualizaciones
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, X } from 'lucide-react';
 

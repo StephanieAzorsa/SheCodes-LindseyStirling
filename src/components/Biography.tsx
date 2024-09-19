@@ -1,3 +1,4 @@
+// Componente no usado en la aplicación, pero se mantiene para futuras actualizaciones
 import React from 'react';
 import {Facebook, Instagram, X, Youtube} from 'lucide-react';
 
