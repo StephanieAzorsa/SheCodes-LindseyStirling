@@ -11,7 +11,7 @@ const AppContent: React.FC = () => {
 
     return (
         <div className={`flex flex-col min-h-screen ${theme === 'dark' ?
-            'dark bg-gray-900 text-white' : 'bg-white text-gray-900 bg-purple-100'}`}>
+            'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
             <Header
                 toggleTheme={toggleTheme}
                 theme={theme}

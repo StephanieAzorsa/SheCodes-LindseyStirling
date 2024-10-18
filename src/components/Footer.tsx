@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
                 © 2024 - Programado por una fan 🤍
             </div>
             <a href="https://github.com/StephanieAzorsa/SheCodes-LindseyStirling" >
-                <Github size={20} className="m-2 dark:text-white text-gray-950 dark:hover:text-indigo-900 hover:text-indigo-900"/>
+                <Github size={20} className="m-2 dark:text-white text-gray-950 dark:hover:text-pink-900 hover:text-pink-900"/>
             </a>
         </footer>
     );
